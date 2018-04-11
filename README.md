@@ -12,8 +12,9 @@
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; assert_equal(320, precoCalculado("WWWX"))<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; assert_equal(350, precoCalculado("WWWXX"))<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; assert_equal(380, precoCalculado("WWWXXZ"))<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; assert_equal(380, precoCalculado("ZWXWXW"))<br />&nbsp;&nbsp;&nbsp;&nbsp; end</p>
 <p>&nbsp;&nbsp;&nbsp; def precoIncrementalTest<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; calc = CalculaPreco.new(REGRAS)<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; assert_equal(0, calc. precoTotal)<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; calc.verificaPreco("W"); assert_equal(100, calc.precoTotal)<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; calc.verificaPreco("X"); assert_equal(160, calc.precoTotal)<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; calc.verificaPreco("W"); assert_equal(260, calc.precoTotal)<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; calc.verificaPreco("W"); assert_equal(320, calc.precoTotal)<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; calc.verificaPreco("X"); assert_equal(350, calc.precoTotal)<br />&nbsp;&nbsp;&nbsp;&nbsp; end<br />end</p>
 <p><br /><strong>Disponibiliza&ccedil;&atilde;o dos artefatos</strong></p>
-<p>Para disponibilizar os artefatos, siga os seguintes passos:</p>
+<p>Para disponibilizar os artefatos siga os seguintes passos:</p>
 <p>1. Crie uma conta no github, caso ainda n&atilde;o tenha;<br />2. Entre no github com a sua conta e fa&ccedil;a um fork deste reposit&oacute;rio (n&atilde;o fa&ccedil;a clone);<br />3. Disponibilize os artefatos na sua conta do github (push);<br />4. Pelo seu reposit&oacute;rio no github, fa&ccedil;a um pull request para este reposit&oacute;rio.</p>
+<p><strong>Obs.:</strong></p>
 <p>N&atilde;o fa&ccedil;a push direto para este reposit&oacute;rio.</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
