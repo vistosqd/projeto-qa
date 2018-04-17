@@ -1,0 +1,23 @@
+localização.feature
+
+language:pt
+
+
+Funcionalidade: Compartilhar a localização atual com os contatos
+
+Como usuário do aplicativo WhatsApp, eu quero utilizar a função compartilhar a localização de modo que o(s) contato(s) possa ver a minha localização atual
+
+Contexto:
+                Dado que eu entro no Whatsapp
+                E eu acesse uma conversa
+
+Cenário: Enviar a Localização
+                Quando toco no botão referente ao Clipes
+                E dentre as opções mostrada, eu irei tocar no botão do mapa que está escrito localização
+                E vai me mostrar várias opções de localização como compartilhar a localização atual ou locais próximos
+                E toco na opção compartilhar a localização atual
+                E irá mostrar 3 opções de tempo que irei compartilhar o meu trajeto e o campo para escrever algum comentário
+                E escolhi 15 minutos 
+                E escrevi um comentário
+                E toquei na seta
+                Então enviei a minha localização atual com o comentário para a conversa
