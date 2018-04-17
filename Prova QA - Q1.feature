@@ -1,29 +1,30 @@
 #language: pt
+Funcionalidade: Envio de localiza√ß√£o atual e localiza√ß√£o compartilhada.
 
 Contexto:
 	Dado que eu entro no Whatsapp
 	Seleciono o Contato/Grupo
 
-Cenario: Enviar localizaÁ„o atual
+Cenario: Enviar localiza√ß√£o atual
 	
 	Quando toco em Anexar
-	E acesso a LocalizaÁ„o
-	E toco em uma das localizaÁıes atuais
-	Ent„o a localizaÁ„o atual È enviada
+	E acesso a Localiza√ß√£o
+	E toco em uma das localiza√ß√µes atuais
+	Ent√£o a localiza√ß√£o atual √© enviada
 
-Cenario: Compartilhar localizaÁ„o atual
+Cenario: Compartilhar localiza√ß√£o atual
 
 	Quando toco em Anexar
-	E acesso a LocalizaÁ„o
-	E toco em Compartilhar localizaÁ„o atual
-	E selecione o tempo de duraÁ„o
+	E acesso a Localiza√ß√£o
+	E toco em Compartilhar localiza√ß√£o atual
+	E selecione o tempo de dura√ß√£o
 	E clico em Enviar
-	Ent„o a localizaÁ„o atual e compartilhada pelo tempo de duraÁ„o selecionado
+	Ent√£o a localiza√ß√£o atual e compartilhada pelo tempo de dura√ß√£o selecionado
 
-Cenario: Encerrar compartilhamento de localizaÁ„o atual
+Cenario: Encerrar compartilhamento de localiza√ß√£o atual
 
-	Quanto o compartilhamento de localizaÁ„o atual est· ativo
+	Quanto o compartilhamento de localiza√ß√£o atual est√° ativo
 	E toco em Encenrrar
 	E confirmo o cancelamento
-	O compartilhamento de localizaÁ„o atual È encerrado
+	O compartilhamento de localiza√ß√£o atual √© encerrado
 	
